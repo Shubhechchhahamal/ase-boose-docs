@@ -134,7 +134,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Booseapptest.Test1",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Booseapptest.Test1.yml\" sourcestartlinenumber=\"1\">Contains unit tests for verifying the functionality of the <xref href=\"Booseapp.AppCanvas\" data-throw-if-not-resolved=\"false\"></xref> class,\nincluding MoveTo, DrawTo, and multi-line program behavior.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -42,12 +42,12 @@
   "api/Booseapptest.Test1.html": {
     "href": "api/Booseapptest.Test1.html",
     "title": "Class Test1 | ASE Assignment Documentation",
-    "summary": "Class Test1 Namespace Booseapptest Assembly Booseapptest.dll [TestClass] public sealed class Test1 Inheritance object Test1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods TestDrawTo_UpdatesPenPosition() Verifies that the DrawTo(int, int) method updates the pen's position correctly after drawing a line. [TestMethod] public void TestDrawTo_UpdatesPenPosition() TestMoveTo_UpdatesPenPosition() [TestMethod] public void TestMoveTo_UpdatesPenPosition() TestMultilineProgram_ExecutesAllCommands() [TestMethod] public void TestMultilineProgram_ExecutesAllCommands()"
+    "summary": "Class Test1 Namespace Booseapptest Assembly Booseapptest.dll Contains unit tests for verifying the functionality of the AppCanvas class, including MoveTo, DrawTo, and multi-line program behavior. [TestClass] public sealed class Test1 Inheritance object Test1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Methods TestDrawTo_UpdatesPenPosition() Verifies that the DrawTo(int, int) method updates the pen's position correctly after drawing a line. [TestMethod] public void TestDrawTo_UpdatesPenPosition() TestMoveTo_UpdatesPenPosition() Tests that the MoveTo(int, int) method correctly updates the pen position. [TestMethod] public void TestMoveTo_UpdatesPenPosition() TestMultilineProgram_ExecutesAllCommands() Tests that a multi-line BOOSE program containing several commands (MoveTo, SetColour, Rect, Circle) executes correctly and results in the expected pen position and colour. [TestMethod] public void TestMultilineProgram_ExecutesAllCommands()"
   },
   "api/Booseapptest.html": {
     "href": "api/Booseapptest.html",
     "title": "Namespace Booseapptest | ASE Assignment Documentation",
-    "summary": "Namespace Booseapptest Classes Test1"
+    "summary": "Namespace Booseapptest Classes Test1 Contains unit tests for verifying the functionality of the AppCanvas class, including MoveTo, DrawTo, and multi-line program behavior."
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
