@@ -1,0 +1,228 @@
+{
+  "source_base_path": "C:/Users/c7356741/source/documentation/ase-boose-assignment-Shubhechchhahamal-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.AppCanvas",
+      "Summary": "<p sourcefile=\"api/Booseapp.AppCanvas.yml\" sourcestartlinenumber=\"1\">Represents a drawable canvas used in the Boose application.\nProvides methods to draw shapes, set pen properties, and manage drawing state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.AppCircle",
+      "Summary": "<p sourcefile=\"api/Booseapp.AppCircle.yml\" sourcestartlinenumber=\"1\">Represents a command that draws a circle on the canvas.\nInherits from <xref href=\"BOOSE.CommandOneParameter\" data-throw-if-not-resolved=\"false\"></xref> and requires one parameter (radius).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/Booseapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Factory class responsible for creating instances of application-specific commands.\nInherits from <xref href=\"BOOSE.CommandFactory\" data-throw-if-not-resolved=\"false\"></xref> and overrides the <xref href=\"Booseapp.AppCommandFactory.MakeCommand(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method\nto return corresponding command objects based on the command name.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.AppMoveto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.AppMoveto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.AppMoveto",
+      "Summary": "<p sourcefile=\"api/Booseapp.AppMoveto.yml\" sourcestartlinenumber=\"1\">Represents a command that moves the pen to a specified position on the canvas.\nInherits from <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> and requires two integer parameters (X and Y coordinates).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.AppRect",
+      "Summary": "<p sourcefile=\"api/Booseapp.AppRect.yml\" sourcestartlinenumber=\"1\">Represents a command that draws a rectangle on the canvas.\nInherits from <xref href=\"BOOSE.CommandTwoParameters\" data-throw-if-not-resolved=\"false\"></xref> and requires two integer parameters (width and height).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.CanvasException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.CanvasException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.CanvasException",
+      "Summary": "<p sourcefile=\"api/Booseapp.CanvasException.yml\" sourcestartlinenumber=\"1\">Represents errors that occur during canvas operations such as drawing or rendering.\nInherits from the base <xref href=\"System.Exception\" data-throw-if-not-resolved=\"false\"></xref> class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp.Form1",
+      "Summary": "<p sourcefile=\"api/Booseapp.Form1.yml\" sourcestartlinenumber=\"1\">Represents the main form of the Boose application.\nHandles initialization, user interactions, and drawing operations on the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapptest.Test1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapptest.Test1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapptest.Test1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Booseapptest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Booseapptest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Booseapptest",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
